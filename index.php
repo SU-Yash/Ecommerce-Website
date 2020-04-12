@@ -743,7 +743,7 @@
             <?                    
                             }
                         else{
-
+                            date_default_timezone_set('UTC');
                             $keyword =  $_POST["Keyword"];
                             $keyword = preg_replace('/\s+/', '+', $keyword); //Accepting multiple keywords seperated by spaces
                             //print_r($_POST);
